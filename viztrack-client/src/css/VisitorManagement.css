@@ -1,0 +1,7 @@
+.VisitorManagement .sidebar-container {
+    display: flex;
+}
+
+.VisitorManagement .main-content {
+    flex-grow: 1;
+}

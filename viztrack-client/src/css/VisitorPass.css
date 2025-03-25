@@ -1,0 +1,44 @@
+.Visitor-Pass {
+    background-color: #deeffa;
+    width: 28%;
+    height: auto;
+    min-width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-60%, -40%);
+    border-radius: 10px;
+    border:2px solid #dae5f3;
+
+}
+
+.visitor-pass-data {
+    display: flex;
+    margin-top: 10px;
+}
+
+.visitor-pass-data h4,p,h2 {
+    margin-left: 10px;
+
+}
+
+.visitor-pass-container h2{
+    padding-bottom: 15px;
+}
+
+.visitor-pass-print-btn button {
+    width: 110px;
+    height: 50px;
+    background-color: #98cfff;
+    border-radius: 5px;
+    color: black;
+    float:right;
+    margin-right:20px;
+    margin-top: 10px;
+}
+
+.visitor-pass-print-btn button:hover {
+    background-color: #7bb6ea;
+    color: white;
+}

@@ -1,0 +1,105 @@
+.admin-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    padding: 10px;
+}
+
+.admin-login .admin-container {
+    max-width: 400px;
+    width: 100%;
+    height:auto;
+    padding: 30px 30px;
+    border-radius: 5px;
+    background-color: #98cfff;
+}
+
+.admin-login .admin-container .title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.admin-login .admin-form .admin-details {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.admin-login .admin-details .input-container {
+    margin: 20px 0 12px 0;
+}
+
+.admin-login .admin-details .input-container input {
+    height: 40px;
+    width: 300px;
+    display: block;
+    padding-left: 10px;
+    color: black;
+    font-size: 13px;
+}
+
+
+.admin-login .admin-details .input-container label {
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+.admin-login .admin-details button {
+    width: 110px;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #c2def6;
+    color: black;
+}
+
+.admin-login .admin-details button:hover {
+    background-color: #5fa7e6;
+    color: white;
+}
+
+.admin-login .input-container p{
+    font-size: 13px;
+    color:blue;
+    margin-bottom: -20px;
+    margin-left: 1px;
+}
+
+.admin-login .input-container .inputError {
+  border: 2px solid #FF8BA0; 
+}
+
+.admin-login .eye-icon{
+    margin-top: -30px;
+    float: right;
+    margin-right: 10px;
+}
+
+.admin-login .Links{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 20px;
+    color: rgb(25, 25, 200);
+}
+
+.admin-login p{
+    margin-left: -2px;
+    font-size: 12px;
+}
+
+.admin-login .SignupLink{
+    margin-left: -210px;
+    text-decoration: underline;
+}
+
+.admin-login .Links .ForgotPassword{
+    text-decoration:underline;
+}
+
+

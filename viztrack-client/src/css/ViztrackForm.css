@@ -1,0 +1,193 @@
+.ViztrackForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.ViztrackForm .viztrackForm-container {
+    max-width: 400px;
+    height: auto;
+    padding: 16px 20px;
+    border-radius: 5px;
+    background-color: #98cfff;
+}
+
+.ViztrackForm .viztrackForm-container .title {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.ViztrackForm .viztrackForm .viztrackForm-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.ViztrackForm .viztrackForm-details .input-container{
+    margin: 10px 0 12px 0;
+}
+
+.ViztrackForm .viztrackForm-details .input-container input {
+    height: 38px;
+    width: 300px;
+    display: block;
+    color: black;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+
+.ViztrackForm .viztrackForm-details .input-container label {
+    display: block;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.ViztrackForm  button {
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    margin-top: 25px;
+    background-color: #c2def6;
+    color: black;
+}
+
+.ViztrackForm .viztrackForm-details button:hover {
+    background-color: #5fa7e6;
+    color: white;
+}
+
+.ViztrackForm .input-container p {
+    font-size: 13px;
+    color: blue;
+    margin-left: 1px;
+    margin-bottom: -20px;
+}
+
+.ViztrackForm .input-container .inputError {
+    border: 2px solid #FF8BA0;
+}
+
+
+.ViztrackForm .radio-btn input[type="radio"] {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ViztrackForm .radio-btn-container label {
+    margin-right: 15px;
+}
+
+.ViztrackForm .radio-btn-container2 #cancel-meet-label, #update-meet-label{
+   font-size: 14px;
+}
+
+.ViztrackForm .radio-btn-container2 label {
+    margin-right: 5px;
+}
+
+.ViztrackForm .radio-options label {
+    font-size: 14px; 
+}
+
+.ViztrackForm .radio-btn-container{
+    margin-top: 10px;
+    margin-bottom: 2px;
+  
+}
+
+.ViztrackForm .radio-btn-container2 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+
+}
+
+.ViztrackForm .radio-btn-container p {
+    font-size: 13px;
+    color: blue;
+    margin-bottom: -15px;
+    margin-left: 0px;
+
+}
+
+.ViztrackForm .radio-btn-container2 p {
+    font-size: 13px;
+    color: blue;
+    margin-bottom: -15px;
+    margin-left: 0px;
+
+
+}
+
+.ViztrackForm .input-container #Available_Date{
+    width: 200px;
+}
+
+.ViztrackForm .input-container #Update_Date {
+    width: 200px;
+}
+
+.ViztrackForm .input-container .date-containter{
+   margin-left: -95px;
+}
+
+
+.ViztrackForm .time-input-container {
+    margin: 10px 0 12px 0;
+}
+
+.ViztrackForm .time-inner-container{
+   display: flex;
+   justify-content: space-between;
+
+}
+
+
+.ViztrackForm  .time-input #to {
+    margin: 10px 5px;
+    color: black;
+}
+
+
+.ViztrackForm .time-input-container .inputError {
+    border: 2px solid #FF8BA0;
+}
+
+.ViztrackForm .time-input-container input {
+    height: 37px;
+    width: 130px;
+    color: black;
+    display:block;
+    font-size: 13px;
+    padding-left: 10px;
+    
+}
+
+.ViztrackForm .time-input-container label {
+    display: block;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+
+.ViztrackForm .time-input-container p {
+    font-size: 13px;
+    color: blue;
+    margin-left: 1px;
+    margin-bottom: -20px;
+}
+
+.ViztrackForm .time-input-container .rdtPicker {
+    height: 100px;
+    min-width: 130px;
+}
+
+.ViztrackForm .time-input-container .rdtTime {
+    font-size: 12px;
+    justify-content: center;
+}
+
+.ViztrackForm .time-input-container .rdtCounters {
+    font-size: 11px;
+}

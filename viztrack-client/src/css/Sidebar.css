@@ -1,0 +1,85 @@
+.side-bar .sidebar-menu {
+    background-color: #729dec;
+    width: 130px;
+    height: 101.3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -60px;
+    color: #021944;
+    max-height: 110%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.sidebar-menu .logo-container img{
+    height: 70px;
+    width:70px;
+    opacity: 80%;
+}
+
+.sidebar-menu .logo-container h5{
+  margin-top: -12px;
+  margin-left: -4px;
+  font-style: italic;
+  font-size: 20px;
+  color: #021944; 
+}
+
+.sidebar-menu .dashboard:hover{
+  color: #E5F3FD;
+}
+
+.sidebar-menu .Employee-Registration:hover{
+  color: #E5F3FD;
+}
+
+.sidebar-menu .Visitor-Registration:hover{
+  color: #E5F3FD;
+}
+
+.sidebar-menu .Meeting-Registration:hover{
+  color: #E5F3FD;
+}
+
+.sidebar-menu .Pre-Registration:hover {
+  color: #E5F3FD;
+}
+
+.sidebar-menu .Check-In-Out:hover {
+  color: #E5F3FD;
+}
+
+.sidebar-menu .Emergency-Report:hover {
+  color: #E5F3FD;
+}
+
+.sidebar-menu .total-reports-count{
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+  background-color: rgb(105, 212, 221);
+  margin-top: -30px;
+  margin-left: 52px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-menu .total-reports-count p{
+  font-size: 9px;
+  color: #021944;
+  padding-top: 4px;
+  margin-left: 0px;
+  font-weight: 600;
+}
+
+.sidebar-menu .Active{
+  color: white;
+}

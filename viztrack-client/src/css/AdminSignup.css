@@ -1,0 +1,188 @@
+.admin-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96vh;
+    padding: 10px;
+}
+
+.admin-signup .admin-container {
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    padding: 25px 30px;
+    border-radius: 5px;
+    background-color: #98cfff;
+}
+
+.admin-signup .admin-container .title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.admin-signup .admin-form .admin-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.admin-signup .admin-details .input-container {
+    margin: 20px 0 12px 0;
+}
+
+.admin-signup .admin-details .input-container input {
+    height: 40px;
+    width: 230px;
+    display: block;
+    padding-left: 10px;
+    color: black;
+    font-size: 13px;
+}
+
+
+.admin-signup .admin-details .input-container label {
+    display: block;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+.admin-signup .admin-details button {
+    width: 120px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #c2def6;
+    color: black;
+}
+
+.admin-signup .admin-details button:hover {
+    background-color: #5fa7e6;
+    color: white;
+}
+
+
+.admin-signup .input-container p {
+    font-size: 13px;
+    color: blue;
+    margin-bottom: -20px;
+    margin-left: 1px;
+}
+
+.admin-signup .input-container .inputError {
+    border: 2px solid #FF8BA0;
+}
+
+.admin-signup .eye-icon {
+    margin-top: -30px;
+    float: right;
+    margin-right: 10px;
+}
+
+.admin-signup .Links {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 18px;
+    color: rgb(25, 25, 200);
+}
+.admin-signup .LoginLink{
+   text-decoration: underline;
+   color: rgb(25, 25, 200);
+   margin-left: 8px;
+}
+
+
+.otp-verification {
+    background-color: #e7f5fe;
+    width: 230px;
+    height: auto;
+    padding: 30px 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.otp-verification .title {
+    margin-bottom: 20px;
+    margin-top: -5px;
+    font-size: 14.5px;
+}
+
+.otp-verification .input-container {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.otp-verification input {
+    width: 150px;
+    height: 30px;
+    margin-left: 0px;
+    padding-left: 5px;
+    background-color: #d8e2e7;
+    color: black;
+    font-size: 12px;
+}
+
+.otp-verification .input-container .inputError {
+    border: 2px solid #eaa5b2;
+}
+
+.otp-verification p {
+    font-size: 11px;
+    color: blue;
+    margin-left: 0px;
+    margin-bottom: -10px;
+}
+
+.otp-verification small {
+    font-size: 10px;
+    color: rgb(145, 143, 143);
+}
+
+.otp-verification h5{
+   font-weight: 600;
+}
+
+
+.otp-verification label {
+    font-weight: 600;
+    color: black;
+    font-size: 13.2px;
+}
+
+
+.otp-verification button {
+    margin-top: 15px;
+    height: 30px;
+    width: 60px;
+    padding: 5px;
+    color: black;
+    background-color: #d8e2e7;
+    font-size: 12px;
+}
+
+.otp-verification button:hover {
+    background-color: rgb(177, 176, 176);
+    color: black;
+}
+
+.otp-verification .otp-timeout {
+    padding: 5px;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    left: 63%;
+    top: 62%;
+    transform: translateY(-70%);
+}
+
+.otp-verification #otp-timeout {
+    padding: 10px;
+    display: block;
+    color: black;
+}
+

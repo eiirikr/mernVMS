@@ -1,0 +1,50 @@
+.Dashboard{  
+    height: 90vh;  
+    min-width: 1350px
+}
+
+.Dashboard .title{
+    text-align: center;
+    font-size: 16px;
+}
+
+.Dashboard-Container{
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.Dashboard-Components {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Dashboard-Components .Component {
+    width: 210px;
+    height: 120px;
+    background-color: #98cfff;
+    border-radius: 5px;
+    color: rgb(60, 59, 59);
+    text-align: center;
+    font-size: 16px;
+    margin: 20px;
+}
+
+.Dashboard-Components .Component h4 {
+    margin:15px;
+}
+
+.Dashboard-Components .Component:hover {
+    background-color: #7bb6ea;
+    color: white;
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
