@@ -440,7 +440,7 @@ function EmployeeRegistration({handleChangeDashboardEmpData}){
         </div>    
         </div>
         <div className="view-employees-table-btn">
-             <button  onClick={()=>{navigate("/viztrack/employee/details"); handleChangeDashboardEmpData('')}} type="submit">View Employees Details</button>
+             <button  onClick={()=>{navigate("/time/employee/details"); handleChangeDashboardEmpData('')}} type="submit">View Employees Details</button>
         </div>
     </div>
     );

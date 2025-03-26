@@ -26,8 +26,8 @@ function App() {
       <BrowserRouter>
       { isLoggedIn ? (
         <Routes>
-          <Route path="/" element={<Navigate to="/viztrack/dashboard" />} />
-          <Route path="/viztrack/*" element={<VisitorManagement />} />
+          <Route path="/" element={<Navigate to="/time/dashboard" />} />
+          <Route path="/time/*" element={<VisitorManagement />} />
           <Route path="/availability/form" element={<MeetingAvailabilityForm />} />
           <Route path="/emergency/report" element={<EmergencyReport />} />
          </Routes>

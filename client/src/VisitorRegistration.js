@@ -225,7 +225,7 @@ function VisitorRegistration(){
         </div>    
         </div>
         <div className="view-visitors-table-btn">
-             <button  onClick={()=> navigate("/viztrack/visitor/details")} type="submit">View Visitors Details</button>
+             <button  onClick={()=> navigate("/time/visitor/details")} type="submit">View Visitors Details</button>
         </div>
     </div>
     );

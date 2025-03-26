@@ -29,7 +29,7 @@ function Header() {
                 </div>
               </div>
           <div className="nav-title">
-            <h1>VizTrack</h1>
+            <h1>Time</h1>
           </div>
         <div className="user-info">
           <div className="user-icon">

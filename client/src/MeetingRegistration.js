@@ -233,7 +233,7 @@ function MeetingRegistration({handleChangeVisitorPass, handleChangeDashboardEmpD
             setImageData('')
             setAvailable('')
             setAvailFormData({})
-            navigate('/viztrack/visitor/pass')  })
+            navigate('/time/visitor/pass')  })
         .catch(err=>console.log(err)) 
       } 
       else if(availFormData.availability==="no"){
@@ -469,13 +469,13 @@ useEffect(() => {
         </div>
         <div className='redirect-table-btns'>
         <div className="view-table-btn">
-             <button  onClick={()=> navigate("/viztrack/meeting/details")} type="submit">View Meetings Details</button>
+             <button  onClick={()=> navigate("/time/meeting/details")} type="submit">View Meetings Details</button>
         </div>
         <div className="view-table-btn">
-             <button  onClick={()=> navigate("/viztrack/visitor/details")} type="submit">View Visitor Details</button>
+             <button  onClick={()=> navigate("/time/visitor/details")} type="submit">View Visitor Details</button>
         </div>
          <div className="view-table-btn">
-             <button  onClick={()=>{navigate("/viztrack/employee/details"); handleChangeDashboardEmpData('')}} type="submit">View Employee Availability</button>
+             <button  onClick={()=>{navigate("/time/employee/details"); handleChangeDashboardEmpData('')}} type="submit">View Employee Availability</button>
         </div>
         </div>
         {(employee && available==="no") && (

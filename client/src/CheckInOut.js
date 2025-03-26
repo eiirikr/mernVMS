@@ -103,7 +103,7 @@ function CheckInOut({handleChangeVisitorPass, handleChangeDashboardVisitorData, 
                 alert(res.data);
             }else{
               handleChangeVisitorPass(res.data);
-              navigate('/viztrack/visitor/pass') 
+              navigate('/time/visitor/pass') 
               setVisitPassID('');
               setFormErrors({});
             }
@@ -138,13 +138,13 @@ function CheckInOut({handleChangeVisitorPass, handleChangeDashboardVisitorData, 
         </div>
         <div className='redirect-table-btns'>
             <div className="view-table-btn">
-                <button  onClick={()=> navigate("/viztrack/meeting/details")} type="submit">View Meetings Details</button>
+                <button  onClick={()=> navigate("/time/meeting/details")} type="submit">View Meetings Details</button>
             </div>
             <div className="view-table-btn">
-                <button  onClick={()=> {handleChangeDashboardPreregisterData(''); navigate("/viztrack/preregistration/details")}} type="submit">View<br/>Pre-Registrations Details</button>
+                <button  onClick={()=> {handleChangeDashboardPreregisterData(''); navigate("/time/preregistration/details")}} type="submit">View<br/>Pre-Registrations Details</button>
             </div>
             <div className="view-table-btn">
-                <button  onClick={()=> {handleChangeDashboardVisitorData('');  navigate("/viztrack/check/in/out/details")}} type="submit">View<br/>Check In/Out Details</button>
+                <button  onClick={()=> {handleChangeDashboardVisitorData('');  navigate("/time/check/in/out/details")}} type="submit">View<br/>Check In/Out Details</button>
             </div>
         </div>
     </div>);

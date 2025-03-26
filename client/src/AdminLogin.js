@@ -104,7 +104,7 @@ function AdminLogin({onChangeAdminEmail}){
             alert("Login Successfull!");
             setFormData(initialFormData);
             setFormErrors({});
-            window.location.href = '/viztrack/dashboard' }
+            window.location.href = '/time/dashboard' }
         })
         .catch(err=>console.log(err))
     }

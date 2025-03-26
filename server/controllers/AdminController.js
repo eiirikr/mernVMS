@@ -150,7 +150,7 @@ const sendOTP=async(req,res)=>{
 
         const OTP=generateOTP()
         const messageText='Your OTP is '+OTP+"\n"+"valid only 2 minutes"
-        const Subject="Viztrack Admin Verification"
+        const Subject="Time Admin Verification"
 
         sendEmail(formData.email, Subject, messageText);
            

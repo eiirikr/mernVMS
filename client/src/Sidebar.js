@@ -25,7 +25,7 @@ function Sidebar({handleReportCount}) {
             <div className="sidebar-menu">
                 <div className="logo-container">
                     <img src={logo} className="logo-img" alt='logo' />
-                    <h5>VizTrack</h5>
+                    <h5>Time</h5>
                 </div> 
                 <div className={(active==="dashboard")?"Active":"dashboard"} onClick={()=>{navigate("dashboard"); handleChangeActive('dashboard') }}>
                     <TbDeviceDesktopAnalytics size={40} />

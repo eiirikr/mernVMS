@@ -534,13 +534,13 @@ useEffect(() => {
         </div>
         <div className='redirect-table-btns'>
         <div className="view-table-btn">
-             <button  onClick={()=> {handleChangeDashboardPreregisterData(''); navigate("/viztrack/preregistration/details")}} type="submit">View<br/>Pre-Registrations Details</button>
+             <button  onClick={()=> {handleChangeDashboardPreregisterData(''); navigate("/time/preregistration/details")}} type="submit">View<br/>Pre-Registrations Details</button>
         </div>
         <div className="view-table-btn">
-             <button  onClick={()=> navigate("/viztrack/visitor/details")} type="submit">View Visitor Details</button>
+             <button  onClick={()=> navigate("/time/visitor/details")} type="submit">View Visitor Details</button>
         </div>
          <div className="view-table-btn">
-             <button  onClick={()=> {navigate("/viztrack/employee/details"); handleChangeDashboardEmpData('')}} type="submit">View Employee Availability</button>
+             <button  onClick={()=> {navigate("/time/employee/details"); handleChangeDashboardEmpData('')}} type="submit">View Employee Availability</button>
         </div>
         </div>
         {((employee && available==="no") && isSubmit) && (

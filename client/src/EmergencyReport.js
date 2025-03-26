@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
-import "./css/ViztrackForm.css";
+import "./css/TimeForm.css";
 import Datetime from 'react-datetime';
 import 'react-datetime/css/react-datetime.css';
 
@@ -176,14 +176,14 @@ function EmergencyReport(){
   };
 
     return(
-         <div className="ViztrackForm">
+         <div className="TimeForm">
           { resSent ?
-          (<div className="viztrackForm-container">
+          (<div className="timeForm-container">
             <div className="title">
                 <h2>Emergency Report</h2>
             </div>
-            <form onSubmit={handleSubmit}  className="viztrackForm">
-             <div className="viztrackForm-details">
+            <form onSubmit={handleSubmit}  className="timeForm">
+             <div className="timeForm-details">
                 <div className="input-container">
                     <label  htmlFor="ReportPersonID">Your ID</label>
                     <input className={formErrors.reportPersonID ? 'inputError' : 'ReportPersonID'} id="ReportPersonID" name="reportPersonID" type="text" onChange={handleChange} 
@@ -221,7 +221,7 @@ function EmergencyReport(){
                 </div>
                 </div>
                 {formData.reportedFor === "update meet" &&
-                <div className="viztrackForm-details">
+                <div className="timeForm-details">
                 <div className="input-container">
                    <div className='date-containter'>
                     <label htmlFor="Update_Date">Update Date</label>
@@ -255,7 +255,7 @@ function EmergencyReport(){
                      </div>
                  </div>
                 </div> }
-                <div className='viztrackForm-details'>
+                <div className='timeForm-details'>
                   <button onClick={()=>onSubmitValid(setFormErrors)(formData)} type="submit">Submit</button>
                 </div>
             </form>

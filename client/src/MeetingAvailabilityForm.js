@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import "./css/ViztrackForm.css";
+import "./css/TimeForm.css";
 import socketIOClient from 'socket.io-client';
 import Datetime from 'react-datetime';
 import 'react-datetime/css/react-datetime.css';
@@ -161,14 +161,14 @@ function MeetingAvailabilityForm(){
   };
 
     return(
-         <div className="ViztrackForm">
+         <div className="TimeForm">
           { !resSent ?
-          (<div className="viztrackForm-container">
+          (<div className="timeForm-container">
             <div className="title">
                 <h2>Availability Form</h2>
             </div>
-            <form onSubmit={handleSubmit}  className="viztrackForm">
-             <div className="viztrackForm-details">
+            <form onSubmit={handleSubmit}  className="timeForm">
+             <div className="timeForm-details">
                 <div className="input-container">
                     <label  htmlFor="FormID">Form ID</label>
                     <input className={formErrors.formID ? 'inputError' : 'FormID'} id="FormID" name="formID" type="text" onChange={handleChange} 
@@ -198,7 +198,7 @@ function MeetingAvailabilityForm(){
                  </div>
                 </div>
                 {formData.availability === "no" &&
-                <div className="viztrackForm-details">
+                <div className="timeForm-details">
                 <div className="input-container">
                     <label htmlFor="Reason">Reason</label>
                     <input  className={formErrors.reason ? 'inputError' : 'Reason'} id="Reason" name="reason" type="text" onChange={handleChange} 
@@ -240,7 +240,7 @@ function MeetingAvailabilityForm(){
                   </div>
                  </div> 
                 </div>}
-                <div className='viztrackForm-details'>
+                <div className='timeForm-details'>
                   <button onClick={()=>onSubmitValid(setFormErrors)(formData)} type="submit">Submit</button>
                 </div>
             </form>

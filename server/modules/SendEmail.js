@@ -13,7 +13,7 @@ const transpoter = nodemailer.createTransport({
 });
 
 const mailOptions={
-    from:"viztrack@outlook.com",
+    from:"Time@outlook.com",
     to:To,
     subject:Sub,
     text:Message

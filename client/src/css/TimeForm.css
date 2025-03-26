@@ -1,11 +1,11 @@
-.ViztrackForm {
+.TimeForm {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 95vh;
 }
 
-.ViztrackForm .viztrackForm-container {
+.TimeForm .timeForm-container {
     max-width: 400px;
     height: auto;
     padding: 16px 20px;
@@ -13,23 +13,23 @@
     background-color: #98cfff;
 }
 
-.ViztrackForm .viztrackForm-container .title {
+.TimeForm .timeForm-container .title {
     text-align: center;
     padding-bottom: 5px;
 }
 
-.ViztrackForm .viztrackForm .viztrackForm-details {
+.TimeForm .timeForm .timeForm-details {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 
-.ViztrackForm .viztrackForm-details .input-container{
+.TimeForm .timeForm-details .input-container{
     margin: 10px 0 12px 0;
 }
 
-.ViztrackForm .viztrackForm-details .input-container input {
+.TimeForm .timeForm-details .input-container input {
     height: 38px;
     width: 300px;
     display: block;
@@ -39,13 +39,13 @@
 }
 
 
-.ViztrackForm .viztrackForm-details .input-container label {
+.TimeForm .timeForm-details .input-container label {
     display: block;
     padding-bottom: 2px;
     padding-left: 2px;
 }
 
-.ViztrackForm  button {
+.TimeForm  button {
     width: 100px;
     height: 40px;
     justify-content: center;
@@ -54,57 +54,57 @@
     color: black;
 }
 
-.ViztrackForm .viztrackForm-details button:hover {
+.TimeForm .timeForm-details button:hover {
     background-color: #5fa7e6;
     color: white;
 }
 
-.ViztrackForm .input-container p {
+.TimeForm .input-container p {
     font-size: 13px;
     color: blue;
     margin-left: 1px;
     margin-bottom: -20px;
 }
 
-.ViztrackForm .input-container .inputError {
+.TimeForm .input-container .inputError {
     border: 2px solid #FF8BA0;
 }
 
 
-.ViztrackForm .radio-btn input[type="radio"] {
+.TimeForm .radio-btn input[type="radio"] {
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.ViztrackForm .radio-btn-container label {
+.TimeForm .radio-btn-container label {
     margin-right: 15px;
 }
 
-.ViztrackForm .radio-btn-container2 #cancel-meet-label, #update-meet-label{
+.TimeForm .radio-btn-container2 #cancel-meet-label, #update-meet-label{
    font-size: 14px;
 }
 
-.ViztrackForm .radio-btn-container2 label {
+.TimeForm .radio-btn-container2 label {
     margin-right: 5px;
 }
 
-.ViztrackForm .radio-options label {
+.TimeForm .radio-options label {
     font-size: 14px; 
 }
 
-.ViztrackForm .radio-btn-container{
+.TimeForm .radio-btn-container{
     margin-top: 10px;
     margin-bottom: 2px;
   
 }
 
-.ViztrackForm .radio-btn-container2 {
+.TimeForm .radio-btn-container2 {
     margin-top: 10px;
     margin-bottom: 2px;
 
 }
 
-.ViztrackForm .radio-btn-container p {
+.TimeForm .radio-btn-container p {
     font-size: 13px;
     color: blue;
     margin-bottom: -15px;
@@ -112,7 +112,7 @@
 
 }
 
-.ViztrackForm .radio-btn-container2 p {
+.TimeForm .radio-btn-container2 p {
     font-size: 13px;
     color: blue;
     margin-bottom: -15px;
@@ -121,41 +121,41 @@
 
 }
 
-.ViztrackForm .input-container #Available_Date{
+.TimeForm .input-container #Available_Date{
     width: 200px;
 }
 
-.ViztrackForm .input-container #Update_Date {
+.TimeForm .input-container #Update_Date {
     width: 200px;
 }
 
-.ViztrackForm .input-container .date-containter{
+.TimeForm .input-container .date-containter{
    margin-left: -95px;
 }
 
 
-.ViztrackForm .time-input-container {
+.TimeForm .time-input-container {
     margin: 10px 0 12px 0;
 }
 
-.ViztrackForm .time-inner-container{
+.TimeForm .time-inner-container{
    display: flex;
    justify-content: space-between;
 
 }
 
 
-.ViztrackForm  .time-input #to {
+.TimeForm  .time-input #to {
     margin: 10px 5px;
     color: black;
 }
 
 
-.ViztrackForm .time-input-container .inputError {
+.TimeForm .time-input-container .inputError {
     border: 2px solid #FF8BA0;
 }
 
-.ViztrackForm .time-input-container input {
+.TimeForm .time-input-container input {
     height: 37px;
     width: 130px;
     color: black;
@@ -165,29 +165,29 @@
     
 }
 
-.ViztrackForm .time-input-container label {
+.TimeForm .time-input-container label {
     display: block;
     padding-bottom: 2px;
     padding-left: 2px;
 }
 
-.ViztrackForm .time-input-container p {
+.TimeForm .time-input-container p {
     font-size: 13px;
     color: blue;
     margin-left: 1px;
     margin-bottom: -20px;
 }
 
-.ViztrackForm .time-input-container .rdtPicker {
+.TimeForm .time-input-container .rdtPicker {
     height: 100px;
     min-width: 130px;
 }
 
-.ViztrackForm .time-input-container .rdtTime {
+.TimeForm .time-input-container .rdtTime {
     font-size: 12px;
     justify-content: center;
 }
 
-.ViztrackForm .time-input-container .rdtCounters {
+.TimeForm .time-input-container .rdtCounters {
     font-size: 11px;
 }
